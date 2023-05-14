@@ -1,0 +1,146 @@
+body{
+    background-color: #00bfff;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    hyphens: auto;
+}
+
+#nome{
+    font-size: 250%;
+}
+
+#resumo{
+    font-size: 125%;
+}
+
+img{
+    border-radius: 5%;
+}
+
+#logo{
+    border-radius: none;
+}
+
+#divlogo{
+    background-image: url(images/bannermgr.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: -2.2mm;
+    padding: 20%;
+}
+
+#logo{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+}
+
+.maindivs{
+    border-radius: 5mm;
+    padding-bottom: 50px;
+    margin-bottom: 20%;
+}
+
+p{
+    font-size: 175%;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.title{
+    margin-top: 200px;
+    font-size: 300%;
+}
+
+.imgdesc{
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+
+hr{
+    border-color: black;
+}
+
+.line{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+video{
+    border-radius: 5%;
+}
+
+#obs{
+    font-size: 100%;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    padding: auto;
+    margin: auto;
+}
+
+.secdivs{
+    margin-bottom: 100px;
+}
+
+#osts{
+    font-size: 200%;
+}
+
+#obsmusic{
+    font-size: 50%;
+    margin-top: 70px;
+}
+
+ul{
+    text-align: left;
+}
+
+.armortxt{
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color:rgb(202, 0, 0);
+}
+
+#musicbtn{
+    margin: auto;
+    width: 525px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#musicbtn a{
+    color: black;
+}
+
+#spotifybtn:hover{
+    color: #1db954;
+}
+
+#applebtn:hover{
+    color: brown;
+}
+
+#soundbtn:hover{
+    color: orangered
+}
+
+#amazonbtn:hover{
+    color: #ff9900;
+}
+
+footer a{
+    margin: 25px;
+}
