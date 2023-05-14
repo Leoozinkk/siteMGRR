@@ -141,6 +141,12 @@ a:hover{
     color: #ff9900;
 }
 
+#glossario{
+    border-width: 100px;
+    border-color: blue;
+    background-color: aqua;
+}
+
 footer a{
     margin: 25px;
 }
