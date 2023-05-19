@@ -1,7 +1,7 @@
 body{
-    background-color: #00bfff;
+   background-color: #00bfff;
     text-align: center;
-    font-family: 'Trebuchet MS';
+    font-family: Arial, Helvetica, sans-serif;
     hyphens: auto;
 }
 
@@ -10,7 +10,7 @@ body{
 }
 
 #resumo{
-    font-size: 125%;
+    font-size: 150%;
 }
 
 img{
@@ -23,6 +23,7 @@ img{
 
 #divlogo{
     background-image: url(images/bannermgr.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: -2.2mm;
@@ -40,10 +41,18 @@ img{
     margin-bottom: 20%;
 }
 
+.secdivs{
+    margin-bottom: 100px;
+}
+
 p{
     font-size: 175%;
     margin-left: 1cm;
     margin-right: 1cm;
+}
+
+sup{
+    font-size: small;
 }
 
 .title{
@@ -82,21 +91,15 @@ td{
     margin: auto;
 }
 
-.secdivs{
-    margin-bottom: 100px;
-}
-
-#osts{
-    font-size: 200%;
-}
-
 #obsmusic{
-    font-size: 50%;
+    font-size: 100%;
     margin-top: 70px;
+    text-align: left;
 }
 
 ul{
     text-align: left;
+    font-size: 200%;
 }
 
 .armortxt{
@@ -116,6 +119,7 @@ a:hover{
 
 #musicbtn{
     margin: auto;
+    padding-bottom: 50px;
     width: 525px;
     display: flex;
     justify-content: space-between;
@@ -142,10 +146,19 @@ a:hover{
 }
 
 #glossario{
-    border-width: 100px;
-    border-color: blue;
-    background-color: aqua;
+    border: 5px solid blue;
+    border-radius: 10px;
+    background-color: rgb(0, 238, 255);
 }
+
+#glossario h1{
+    font-size: 300%;
+}
+
+#glossario p{
+    text-align: left;
+}
+
 
 footer a{
     margin: 25px;
